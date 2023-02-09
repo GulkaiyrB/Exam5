@@ -138,10 +138,12 @@ SELECT * FROM company;
 
 SELECT * FROM trip WHERE town_from = 'Moscow';
 
-SELECT passenger FROM passenger WHERE passenger.name_passenger LIKE '%man';
+SELECT passenger FROM passenger WHERE name_passenger LIKE '%man';
 
 SELECT * FROM trip WHERE plane = 'TU-134';
 
 SELECT * FROM trip WHERE plane = 'Boeing';
 
 SELECT * FROM trip WHERE town_to = 'Moscow';
+
+SELECT * FROM trip WHERE plane = 'Boeing';
